@@ -8,6 +8,7 @@ description = "(Unsafe) Rust code generated with wayland-scanner crate for input
 repository = "https://github.com/grelltrier/zwp-input-method"
 keywords = ["wayland", "virtual_keyboard", "wayland-scanner", "unstable", "wayland-protocols"]
 categories = ["external-ffi-bindings", "gui", "os::linux-apis"]
+documentation = "https://docs.rs/zwp-input-method"
 
 [dependencies]
 wayland-client = "0.27.0"
