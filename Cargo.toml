@@ -11,9 +11,9 @@ categories = ["external-ffi-bindings", "gui", "os::linux-apis"]
 documentation = "https://docs.rs/zwp-input-method"
 
 [dependencies]
-wayland-client = "0.27.0"
-wayland-commons = "0.27.0"
-wayland-protocols = {version="0.27", features = ["client", "unstable_protocols"]}
+wayland-client = "0.28.0"
+wayland-commons = "0.28.0"
+wayland-protocols = {version="0.28", features = ["client", "unstable_protocols"]}
 
 [build-dependencies]
-wayland-scanner = "0.27.0"
+wayland-scanner = "0.28.0"
