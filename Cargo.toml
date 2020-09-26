@@ -1,6 +1,6 @@
 [package]
 name = "zwp-input-method"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
 edition = "2018"
 license = "MIT"
