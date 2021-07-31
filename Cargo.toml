@@ -1,6 +1,6 @@
 [package]
 name = "zwp-input-method"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
 edition = "2018"
 license = "MIT"
@@ -11,9 +11,9 @@ categories = ["external-ffi-bindings", "gui", "os::linux-apis"]
 documentation = "https://docs.rs/zwp-input-method"
 
 [dependencies]
-wayland-client = "0.28.0"
-wayland-commons = "0.28.0"
-wayland-protocols = {version="0.28", features = ["client", "unstable_protocols"]}
+wayland-client = "0.29.0"
+wayland-commons = "0.29.0"
+wayland-protocols = {version="0.29", features = ["client", "unstable_protocols"]}
 
 [build-dependencies]
-wayland-scanner = "0.28.0"
+wayland-scanner = "0.29.0"
