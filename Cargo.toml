@@ -2,13 +2,13 @@
 name = "zwp-input-method"
 version = "0.2.1"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
-edition = "2021"
 license = "MIT"
 description = "(Unsafe) Rust code generated with wayland-scanner crate for input-method-unstable-v2 protocol"
-repository = "https://github.com/grelltrier/zwp-input-method"
+repository = "https://github.com/pentamassiv/zwp-input-method"
+documentation = "https://docs.rs/zwp-input-method"
 keywords = ["wayland", "virtual_keyboard", "wayland-scanner", "unstable", "wayland-protocols"]
 categories = ["external-ffi-bindings", "gui", "os::linux-apis"]
-documentation = "https://docs.rs/zwp-input-method"
+edition = "2021"
 
 [dependencies]
 wayland-client = "0.29.0"
