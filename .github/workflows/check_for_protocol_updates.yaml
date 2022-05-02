@@ -1,0 +1,22 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Remove the old protocol file and download the new one
+      working-directory: ./protocols
+      run: |
+        rm input-method-unstable-v2.xml
+        wget https://gitlab.gnome.org/World/Phosh/squeekboard/-/raw/master/protocols/input-method-unstable-v2.xml
+    - name: Create Pull Request if the protocol was changed
+      uses: peter-evans/create-pull-request@v4
