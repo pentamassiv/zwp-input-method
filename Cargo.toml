@@ -1,6 +1,6 @@
 [package]
 name = "zwp-input-method"
-version = "0.2.2"
+version = "0.3.0"
 authors = ["pentamassiv <pentamassiv@posteo.de>"]
 license = "MIT"
 description = "(Unsafe) Rust code generated with wayland-scanner crate for input-method-unstable-v2 protocol"
