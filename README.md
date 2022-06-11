@@ -1,3 +1,5 @@
+#DEPRECATED: When I created this crate, the protocol was not available in the wayland_protocols_misc crate. Since 29.1 it is available so there is no reason for this crate to continue to exits. Please use the wayland_protocols_misc or the wayland_protocols crate instead.
+
 [![Crate](https://img.shields.io/crates/v/zwp-input-method.svg)](https://crates.io/crates/zwp-input-method)
 [![dependency status](https://deps.rs/repo/github/grelltrier/zwp-input-method/status.svg)](https://deps.rs/repo/github/grelltrier/zwp-input-method)
 [![docs.rs](https://docs.rs/zwp-input-method/badge.svg)](https://docs.rs/zwp-input-method)
